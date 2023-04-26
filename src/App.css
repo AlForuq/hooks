@@ -36,12 +36,3 @@
     transform: rotate(360deg);
   }
 }
-
-.productList {
-  margin-top: 40px;
-}
-
-.productList > div {
-  display: flex;
-  align-items: center;
-}
