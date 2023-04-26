@@ -4,6 +4,7 @@ import "./App.css";
 function App() {
   const [data, setData] = useState({ count: 0, name: "" });
 
+  const [product, setProduct] = useState(0);
   return (
     <div>
       <div>
