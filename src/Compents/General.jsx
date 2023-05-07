@@ -13,7 +13,6 @@ const General = (Component) => {
 
     return (
       <Component
-        fruits={{ fruits }}
         count={count}
         increment={increment}
         decrement={decrement}

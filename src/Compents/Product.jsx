@@ -1,7 +1,7 @@
 import React from "react";
 import General from "./General";
 
-const Product = ({ count, increment, decrement, children }) => {
+const Product = ({ count, increment, decrement }) => {
   return (
     <div>
       <h2>
