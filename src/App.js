@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 import { ThemeProvider, createGlobalStyle } from "styled-components";
+import Order from "./Compents/Order";
 
 function App() {
   const [data, setData] = useState({
@@ -54,6 +55,10 @@ function App() {
       <input
         onChange={({ target: { value } }) => setData({ ...data, name: value })}
       />
+
+      <hr />
+      <br />
+      <Order />
     </ThemeProvider>
   );
 }
